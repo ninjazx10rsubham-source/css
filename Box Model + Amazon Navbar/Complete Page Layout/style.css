@@ -1,0 +1,75 @@
+nav {
+    height: 60px;
+
+    background-color: #0f1111;
+
+    display: flex;
+    align-items: center;
+
+    gap: 100px;
+
+    padding: 0 20px;
+}
+
+nav a {
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 20px;
+}
+
+nav button {
+    background-color: #f08804;
+
+    border: none;
+
+    height: 30px;
+}
+
+
+main {
+    height: 500px;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 30px;
+}
+
+
+.box {
+    height: 100px;
+    width: 100px;
+
+    border: 2px solid black;
+
+    padding: 10px;
+}
+
+.box1 {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.box2 {
+    background-color: rgba(0, 255, 0, 0.5);
+}
+
+.box3 {
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+
+footer {
+    height: 60px;
+
+    background-color: #0f1111;
+
+    color: white;
+
+    text-align: center;
+
+    padding-top: 20px;
+}
